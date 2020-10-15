@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color:rgb(136, 172, 64);
+    position: relative;
+   height: 20%;
+    width: 100%;
+}
+.Kids{
+    margin-left: 55%;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topic-1 {
+font-size: 300%;
+color: white;
+margin-left: 10%;
+margin-right: 8%;
+padding-top: 2%;
+}
+.navbar{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+    position: relative;
+}
+.menu-1{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding-right: 1em;
+    color: white;
+}
+.subhead{
+    margin-left: 8%;
+    color: white;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.head-notes{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.btn-1{
+    padding: 1em;
+    background-color: tomato;
+    border-radius: 15%;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.note-1{
+    font-size: 1.5em;
+    width: 40%;
+}
+.note-2{
+    font-size: 0.5em;
+}
+.btn-2{
+    padding: 1% 2% 1% 2%;
+    background-color: tomato;
+    margin-top: 1.5%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5em;
+}
+
+.logo{ 
+    position: absolute;
+    margin: 0 35%;
+    width: 50em;
+    margin-top: -1.5%;
+}
+.logos{
+    width: 10em;
+    height: 3em;
+    justify-content: space-evenly;
+    margin-right: 2%;
+}
+.row-1{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 2% 15% 2% 15%;
+}
+.box-1, .box-2, .box-3{
+    border: black 5px;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+    background-color: white;
+    height: 20em;
+    text-align: center;
+    line-height: 1.5em;
+}
+.p-logos{
+    width: 4em;;
+    height: 4em;
+    border: 0;
+    border-radius: 100%;
+}
+.topic-2{
+    padding: 0.5em 0 0.5em 0;
+}
+.note-2{
+    font-size: 1em;
+}
+.btn-3{
+    padding: 5% 10%;
+    background-color: tomato;
+    margin-top: 5%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin-bottom: 5em;
+}
+.row-2{
+    padding: 2% 20%;
+    background: linear-gradient(to bottom, rgb(81, 81, 92) 65%, rgb(47, 47, 51) 0%);
+}
+.stat{
+    color: white;
+    font-size: 0.9em;
+    margin-left: 20%;
+}
+.available{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tablet{
+    height: 20em; 
+}
+.Avail{
+    color: white;
+    padding-top: 3em;
+}
+.note-4{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.note-5{
+    line-height: 2em;
+}
+.row-3{
+    background-color:lightgray;
+}
+.grandparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 10%;
+}
+.parent{
+  margin:5em auto;
+}
+.comment-box-1 {
+    position: relative;
+    width: 18em;
+    height: 15em;
+    border: 2px solid black;
+  }
+  .comment-box-1:after, .comment-box-1:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -10px;
+    right: 147px;
+    border-top: 10px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-left: 10px solid transparent;
+  }
+  .comment-box-1:before {
+    bottom: -15px;
+    right: 145px;
+    border-top: 15px solid black;
+    border-right: 2px solid black;
+    border-left: 15px solid transparent;
+  }
+  .comment-box-2 {
+    position: relative;
+    width: 18em;
+    height: 15em;
+    border: 2px solid black;
+  }
+  .comment-box-2:after, .comment-box-2:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -10px;
+    right: 147px;
+    border-top: 10px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-left: 10px solid transparent;
+  }
+  .comment-box-2:before {
+    bottom: -15px;
+    right: 145px;
+    border-top: 15px solid black;
+    border-right: 2px solid black;
+    border-left: 15px solid transparent;
+  }
+  .comment-box-3 {
+    position: relative;
+    width: 18em;
+    height: 15em;
+    border: 2px solid black;
+  }
+  .comment-box-3:after, .comment-box-3:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -10px;
+    right: 147px;
+    border-top: 10px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-left: 10px solid transparent;
+  }
+  .comment-box-3:before {
+    bottom: -15px;
+    right: 145px;
+    border-top: 15px solid black;
+    border-right: 2px solid black;
+    border-left: 15px solid transparent;
+  }
+  .text-box{
+    padding: 1em;
+    line-height: 1.5em;
+  }
+  .pix{
+    width: 3em;
+    height: 3em;
+    margin-left: 3em;
+  }
+.persona{
+    margin: 10% 33% 15% 23%;
+    
+}  
+.name{
+    font-weight: bold;
+}
+.course{
+    text-align: center;
+}
+.become{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-4{
+    padding: 2% 8%;
+    background-color: tomato;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin: 1em auto;
+    font-size: 0.7em;
+}
+.row-4{
+    background-color:rgb(47, 47, 51);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1%;
+}
+.foot{
+    background-color: lightgray;
+}
+.foot-contain{
+    display: flex;
+    padding: 3% 15%;
+    justify-content: space-between;
+}
+.social{
+    display: flex;   
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 5em;
+    height: 15em;
+}
+.Twit{
+    color: white;
+    background-color: lightsalmon;
+    padding: 30%;
+    width:flex;
+    flex:1;
+    height: 5em;
+    font-size: 1.5em;
+}
+
+.Face{
+    color: white;
+    background-color: salmon;
+    padding: 30%;
+    width:flex;
+    flex:1;
+    height: 5em;
+    font-size: 1.5em;
+}
+
+.Google{
+    color: white;
+    background-color: orangered;
+    width:flex;
+    flex:1;
+    height: 5em;
+    padding: 30%;
+    font-size: 1.5em;
+}
+.handles{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+}
+.handle{
+    font-size: 1.5em;
+}
+.menu-2{
+    display: flex;
+    flex-direction: column;
+}
+.menu-list{
+    color: black;
+    line-height: 2em;
+    font-size: 0.9em;
+    font-weight: 550;
+}
+.topic-3{
+    color: tomato;
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+.codemaster{
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+.address{
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+.mail{
+    padding:1em;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.copy{
+    font-size: 0.7em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1em;
+}
+@media (max-width:500px){
+    header{
+        position: relative;
+        height: 10%;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .topic-1{
+        font-size: 200%;
+        position: relative;
+    }
+    .note-2{
+        position: relative;
+        align-content: center;
+    }
+    .logo{
+        position: relative;
+        justify-content: left;
+    }
+    .logos{
+        width: 5em;
+        height: 2em;
+    }
+    .row-1{
+        flex-direction: column;
+    }
+    .stat{
+        text-align: left;
+    }
+    .available{
+        flex-direction: column;
+    }
+    .grandparent{
+        flex-direction: column;
+    }
+    .foot-contain{
+      flex-direction: column;
+    }
+}
