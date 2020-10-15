@@ -373,7 +373,7 @@ padding-top: 2%;
     text-align: center;
     padding-bottom: 1em;
 }
-@media (max-width:500px){
+@media (min-width:500px){
     header{
         position: relative;
         height: 10%;
